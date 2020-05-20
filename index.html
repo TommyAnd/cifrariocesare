@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TA | Cif. Cesare</title>
+
+        <!-- Css -->
+        <link rel="stylesheet" href="style.css">
+
+        <!-- JS -->
+        <script src="met1.js"></script>
+    </head>
+    <body>
+        <form name="form">
+            <p>Stringa non cifrata: <input name="nocif" id="nocif" type="txt" required></p>
+            <p>Chiave di cifratura: <input name="ch" id="ch" type="number" min="1" max="26" required></p>
+            <p>Stringa cifrata: <input name="cif" id="cif" type="text" readonly></p>
+            <input type="button" value="Cifra!" id="bott" onclick="splitta()">
+        </form>
+    </body>
+</html>
