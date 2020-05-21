@@ -1,0 +1,84 @@
+html, body{
+    margin: 0px;
+    background-color: #D9DCD6;
+}
+
+h1, h2, h3, h4, h5, h6, p, a, textarea{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #3A7CA5; 
+}
+
+.flex{
+    display: flex;
+}
+
+.title{
+    text-align: center;
+    justify-content: center;
+}
+
+.maindiv{
+    justify-content: space-around;
+    align-items: center;
+}
+
+.buttonspan{
+    flex-direction: column;
+    align-items: center;
+    background-color: #81C3D7;
+    padding-left: 50px;
+    padding-bottom: 50px;
+    padding-right: 50px;
+    padding-top: 50px;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.textarea{
+    background-color: #81C3D7;
+    padding-left: 50px;
+    padding-bottom: 50px;
+    padding-right: 50px;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+textarea{
+    border-color: #3A7CA5;
+    resize: none;
+    background-color: rgb(255, 255, 255);
+    border-style: solid;
+    border-color: #3A7CA5;
+    border-width: 2px;
+    border-radius: 10px 10px 10px 10px;
+    font-weight: 600;
+}
+
+.button{
+    background-color: rgb(255, 255, 255);
+    border-style: solid;
+    border-color: #3A7CA5;
+    border-width: 2px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    border-radius: 10px 10px 10px 10px;
+    width: 10vw;
+    height: 70px;
+    font-size: 2em;
+    color: #3A7CA5;
+    cursor: pointer;
+}
+
+.chiave {
+    width: 186px;
+    height: 50px;
+    border-style: solid;
+    border-color: #3A7CA5;
+    border-width: 2px;
+    border-radius: 10px 10px 10px 10px;
+    align-content: center;
+    -webkit-appearance: none;
+    -moz-appearance: textfield;
+    font-size: 2em;
+    color: #3A7CA5;
+}

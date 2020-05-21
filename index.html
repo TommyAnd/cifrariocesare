@@ -1,20 +1,40 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>TA | Cif. Cesare</title>
-
-        <!-- Css -->
+        <title>TA | Cifrario Cesare</title>
         <link rel="stylesheet" href="style.css">
-
-        <!-- JS -->
-        <script src="met1.js"></script>
+        <script src="cifra.js"></script>
     </head>
     <body>
+        <h1 class="title flex">Cifrario di Cesare</h1>
+        <h3 class="title flex">By Andreanelli Tommaso</h3>
         <form name="form">
-            <p>Stringa non cifrata: <input name="nocif" id="nocif" type="txt" required></p>
-            <p>Chiave di cifratura: <input name="ch" id="ch" type="number" min="1" max="26" required></p>
-            <p>Stringa cifrata: <input name="cif" id="cif" type="text" readonly></p>
-            <input type="button" value="Cifra!" id="bott" onclick="splitta()">
+            <div class="maindiv flex">
+                <span class="textarea">
+                    <h1>Testo non cifrato</h1>
+                    <hr>
+                    <textarea name="area1" cols="50" rows="10"></textarea>
+                </span>
+                <span class="buttonspan flex">
+                    <input class="button" type="button" value="Cripta!" onclick="vcrypt()">
+                    <input class="chiave flex" type="number" required min="1" max="26" name="ch">
+                    <input class="button" type="button" value="Decripta!" onclick="vencrypt()">
+                </span>
+                <span class="textarea">
+                    <h1>Testo cifrato</h1>
+                    <hr>
+                    <textarea name="area2" cols="50" rows="10"></textarea>
+                </span>
+            </div>
         </form>
     </body>
 </html>
+<!--
+
+From Tommy with love <3
+
+Nya-Nya
+=＾● ⋏ ●＾=
+
+-->
+
